@@ -6,16 +6,50 @@
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
-	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+	import CustomerCardHero from "$lib/components/layout/hero-sections/CustomerCardHero.svelte";
 </script>
 
-<Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
-	generating
+<CustomerCardHero
+	centered={true}
+	title="Connect with qualified sellers faster than ever"
+	subtitle="Legacy Point helps M&A brokers identify and connect with qualified business owners ready to sell, streamlining your deal flow and increasing revenue potential."
+	customers={[
+		{
+			name: "Michael Chen",
+			position: "M&A Broker",
+			imageSrc: "/generated/image-professional-middle-aged-businessman-in-.webp"
+		},
+		{
+			name: "Sarah Martinez",
+			position: "Business Owner",
+			imageSrc: "/generated/image-professional-businesswoman-in-corporate-.webp"
+		},
+		{
+			name: "Robert Williams",
+			position: "Managing Partner",
+			imageSrc: "/generated/image-senior-male-executive-in-a-business-suit.webp"
+		},
+		{
+			name: "Jennifer Thompson",
+			position: "Investment Advisor",
+			imageSrc: "/generated/image-professional-female-business-owner-in-an.webp"
+		},
+		{
+			name: "David Rodriguez",
+			position: "Deal Broker",
+			imageSrc: "/generated/image-middle-aged-male-broker-in-professional-.webp"
+		}
+	]}
 />
-<LogoScroller label="" generating />
+<LogoScroller 
+	label="Trusted by industry leaders"
+	logoUrls={[
+		'https://cdn.brandfetch.io/deloitte.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/pwc.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/ey.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/kpmg.com/w/400/h/400/logo'
+	]}
+/>
 
 <Summary
 	generating
