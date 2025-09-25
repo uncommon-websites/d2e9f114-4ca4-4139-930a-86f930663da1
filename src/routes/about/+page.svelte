@@ -26,56 +26,45 @@
 </script>
 
 <SecondaryHero
-	generating
-	title="Solving world hunger"
-	subtitle="one step at a time"
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
+	title="Less hunting. More deals."
+	subtitle="Built for brokers who move fast"
+	imageSrc="/generated/image-a-group-of-professionals-engaged-in-a-ca.webp"
 />
 
 <!-- Story Section -->
 <Story
-	generating
 	paragraphs={[
-		"We started in 2018 with a simple goal: make helpful tech that people actually need. While many chase profits, we chose to do things differently.",
-		"Beyond making good products, we care about doing the right thing, being kind to our planet, and making sure everyone can use what we build. That's our compass.",
-		"From day one, we've asked ourselves: 'Does this actually help people?' This question gets us through tough calls and shapes who we are. We're playing the long game here.",
-		"We think about how our work affects real people's lives. We build tech that brings people together, keeps your information safe, and treats everyone fairly. When we stick to these basics, good things happen."
+		"Before Legacy Point, M&A brokers hit the same wall every day—hours of manual hunting, cold calls to unqualified prospects, and watching good deals slip away to competitors who moved faster. Our founders saw this frustration firsthand: talented brokers spending more time searching than selling, missing opportunities in the $1M-$50M market where speed and precision matter most.",
+		"Maximilian Jendrall and Mike Ballas founded Legacy Point to solve this fundamental problem through technology. We analyzed seller behavior, dug into data signals, and spoke with brokers frustrated by traditional lead generation platforms. The result was a new way to surface business owners likely to sell soon—before anyone else knows they're considering an exit.",
+		"Today, Legacy Point transforms how M&A professionals source deals. We help brokers connect with motivated business owners in less time, with less friction, delivering qualified seller leads that turn into real conversations and closed transactions. We're building the intelligent sourcing engine that puts brokers ahead of the competition, not behind it."
 	]}
 />
 
 <!-- Our Culture Section -->
-<Culture {values} generating />
+<Culture {values} />
 
 <!-- StakeholderGrid Section -->
 <StakeholderGrid
-	generating
 	stakeholderType="team"
 	title="Our team."
-	subtitle="Your partners in innovation."
+	subtitle="Built by experts who understand M&A."
 	stakeholders={[
 		{
-			name: "Alex Morgan",
+			name: "Mike Ballas",
 			position: "Founder & CEO",
-			bio: "Started the company with a vision to transform the industry through innovative solutions.",
+			bio: "Experienced M&A professional focused on solving the deal sourcing challenge through technology.",
 			image: "https://www.unc.mn/image-placeholder.svg"
 		},
 		{
-			name: "Jamie Chen",
-			position: "Chief Design Officer",
-			bio: "Award-winning designer with a passion for creating intuitive and beautiful experiences.",
-			image: "https://www.unc.mn/image-placeholder.svg"
-		},
-		{
-			name: "Taylor Wright",
-			position: "Head of Engineering",
-			bio: "Technology enthusiast focused on building scalable systems that make a difference.",
+			name: "Maximilian Jendrall",
+			position: "Founder & CTO",
+			bio: "Technology leader building intelligent systems to connect brokers with qualified business sellers.",
 			image: "https://www.unc.mn/image-placeholder.svg"
 		}
 	]}
 />
 
 <StakeholderGrid
-	generating
 	stakeholderType="investor"
 	title="Backed by the best."
 	subtitle="Point Nine, TSIC and others"
@@ -97,8 +86,7 @@
 
 <!-- CTA Section -->
 <CallToAction
-	generating
-	title="Ready to collaborate?"
-	subtitle="Let's create something amazing"
-	description="Join the companies already leveraging our expertise to transform their digital presence and achieve their business goals."
+	title="Ready to source smarter?"
+	subtitle="Connect with qualified sellers faster"
+	description="Join M&A brokers who are already using Legacy Point to identify motivated business owners and close more deals."
 />
