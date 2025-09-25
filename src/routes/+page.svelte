@@ -58,54 +58,67 @@
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Marcus Patterson",
+			position: "Senior M&A Broker",
+			company: "Patterson Capital Advisors",
 			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"Legacy Point cut our lead qualification time from 3 weeks to 4 days. We closed $12M in deals last quarter that we would have missed with manual prospecting.\nThe platform paid for itself in the first month.",
+			image: "/generated/image-headshot-of-a-professional-middle-aged-m.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "Victoria Chen",
+			position: "Managing Partner",
+			company: "Chen & Associates",
 			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"Before Legacy Point, we were cold-calling hundreds of prospects with a 2% success rate. Now we connect with pre-qualified sellers ready to transact.\nOur deal flow increased 340% while reducing research costs by $85,000 annually.",
+			image: "/generated/image-headshot-of-a-professional-female-busine.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "Robert Steinberg",
+			position: "Principal Broker",
+			company: "Steinberg Investment Banking",
 			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"Legacy Point eliminated the guesswork in seller identification. We closed a $28M manufacturing deal within 6 weeks of first contact.\nThe risk of pursuing unqualified leads is now virtually zero.",
+			image: "/generated/image-headshot-of-a-senior-male-investment-ban.webp"
 		}
 	]}
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="Accelerate your deal flow"
+	subtitle="Purpose-built tools that connect M&A brokers with qualified sellers, streamlining every step from lead identification to deal closure."
 	features={[
 		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+			title: "Intelligent seller matching",
+			description: "Our AI-powered algorithms identify business owners ready to sell in your target market. Connect with qualified sellers in the $1M-$50M range faster than manual prospecting.",
+			imageSrc: "/generated/image-a-candid-moment-in-a-modern-elegant-boar.webp"
 		},
 		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+			title: "Comprehensive deal pipeline",
+			description: "Track every opportunity from initial contact to closing with automated follow-ups and milestone reminders. Never lose track of potential deals again.",
+			imageSrc: "/generated/image-a-candid-moment-in-a-sophisticated-offic.webp"
 		},
 		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+			title: "Market intelligence dashboard",
+			description: "Access real-time market data, valuation trends, and competitive insights to position deals strategically and maximize success rates.",
+			imageSrc: "/generated/image-a-candid-scene-in-a-refined-office-setti.webp"
+		},
+		{
+			title: "Secure deal collaboration",
+			description: "Share sensitive documents and communicate with buyers, sellers, and advisors through our encrypted platform designed for M&A confidentiality.",
+			imageSrc: "/generated/image-a-naturally-lit-modern-office-where-two-.webp"
+		},
+		{
+			title: "Automated lead qualification",
+			description: "Pre-screen potential sellers using customizable criteria to focus your time on the most promising opportunities that match your deal preferences.",
+			imageSrc: "/generated/image-a-candid-networking-scene-in-a-contempor.webp"
+		},
+		{
+			title: "Revenue optimization insights",
+			description: "Track commission potential, deal velocity, and ROI across your entire pipeline to identify patterns that drive higher revenue outcomes.",
+			imageSrc: "/generated/image-a-small-group-of-professionals-in-a-mode.webp"
 		}
 	]}
 />
