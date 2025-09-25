@@ -11,16 +11,16 @@
 	// Constants
 	const values = [
 		{
-			title: "Innovation",
-			description: "Constantly challenging the status quo to create better solutions."
+			title: "Speed matters",
+			description: "We understand that in M&A, the first to connect often wins. Every feature we build prioritizes speed and efficiency."
 		},
 		{
-			title: "Integrity",
-			description: "Building trust through transparent actions and honest communication."
+			title: "Data-driven precision",
+			description: "We turn market signals into actionable insights, helping brokers target the right sellers at the right time."
 		},
 		{
-			title: "Impact",
-			description: "Measuring our success by the positive change we create for our clients."
+			title: "Broker success",
+			description: "Your deals closed are our success metrics. We measure ourselves by the value we create for M&A professionals."
 		}
 	];
 </script>
@@ -53,40 +53,21 @@
 			name: "Mike Ballas",
 			position: "Founder & CEO",
 			bio: "Experienced M&A professional focused on solving the deal sourcing challenge through technology.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+			image: "/generated/image-modern-documentary-style-ceo-headshot-in.webp"
 		},
 		{
 			name: "Maximilian Jendrall",
 			position: "Founder & CTO",
 			bio: "Technology leader building intelligent systems to connect brokers with qualified business sellers.",
-			image: "https://www.unc.mn/image-placeholder.svg"
-		}
-	]}
-/>
-
-<StakeholderGrid
-	stakeholderType="investor"
-	title="Backed by the best."
-	subtitle="Point Nine, TSIC and others"
-	stakeholders={[
-		{
-			name: "Point Nine Capital",
-			image: "https://cdn.brandfetch.io/pointnine.com/w/400/h/400/logo?c=1id_elLz2Bd5Ej-dWo7"
-		},
-		{
-			name: "TSIC Ventures",
-			image: "https://cdn.brandfetch.io/tiny.vc/w/400/h/400/logo?c=1a2b3c4d5e"
-		},
-		{
-			name: "Sequoia Capital",
-			image: "https://cdn.brandfetch.io/sequoiacap.com/w/400/h/400/logo"
+			image: "/generated/image-modern-documentary-style-cto-headshot-in.webp"
 		}
 	]}
 />
 
 <!-- CTA Section -->
 <CallToAction
-	title="Ready to source smarter?"
-	subtitle="Connect with qualified sellers faster"
-	description="Join M&A brokers who are already using Legacy Point to identify motivated business owners and close more deals."
+	title="Stop hunting. Start closing."
+	subtitle="Join the brokers moving faster"
+	description="Transform how you source deals with Legacy Point. Connect with motivated business owners ready to sell, reduce manual prospecting time, and focus on what you do best—closing transactions."
+	imageSrc="/generated/image-a-medium-distance-candid-photograph-of-a.webp"
 />
